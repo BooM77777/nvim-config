@@ -1,0 +1,6 @@
+-- vim.api.nvim_set_keymap("i", "(", "()<ESC>i", {})
+-- vim.api.nvim_set_keymap("i", "[", "[]<ESC>i", {})
+-- vim.api.nvim_set_keymap("i", "{", "{}<ESC>i", {})
+-- vim.api.nvim_set_keymap("i", "<", "<><ESC>i", {})
+vim.api.nvim_set_keymap("n", "bn", ":bn<CR>", {})
+vim.api.nvim_set_keymap("n", "pn", ":pn<CR>", {})
