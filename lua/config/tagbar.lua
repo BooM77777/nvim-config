@@ -1,4 +1,6 @@
 vim.api.nvim_set_keymap("n", "tb", ":SymbolsOutline<CR>", {})
+vim.cmd("nmap tb :SymbolsOutline<CR>")
+
 
 vim.g.symbols_outline = {
     highlight_hovered_item = true,
