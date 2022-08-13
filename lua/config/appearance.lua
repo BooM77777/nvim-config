@@ -1,5 +1,10 @@
 vim.opt.termguicolors = true
 
+require('onedark').setup {
+    style = 'darker'
+}
+-- require('onedark').load()
+
 -- require'alpha'.setup(require'alpha.themes.startify'.config)
 
 require('bufferline').setup {

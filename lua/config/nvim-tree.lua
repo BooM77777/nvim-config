@@ -11,12 +11,12 @@ require 'nvim-tree'.setup {
   update_cwd           = false,
   diagnostics          = {
     enable = false,
-    -- icons = {
-    --   hint = "",
-    --   info = "",
-    --   warning = "",
-    --   error = "",
-    -- }
+    icons = {
+      hint = "",
+      info = "",
+      warning = "",
+      error = "",
+    }
   },
   update_focused_file  = {
     enable      = true,
@@ -61,12 +61,6 @@ require 'nvim-tree'.setup {
       quit_on_open = false,
     }
   },
-  -- offsets = {{
-  --   filetype = "NvimTree",
-  --   text = "File Explorer",
-  --   highlight = "Directory",
-  --   text_align = "left"
-  -- }}
 }
 
 vim.cmd([[
